@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-image: linear-gradient(
+    45deg,
+    rgb(62, 147, 111),
+    40%,
+    rgb(136, 230, 166) 60%
+  );
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.nav {
+  height: 9vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.2rem;
+  font-weight: 500;
+  color: rgb(6, 6, 6);
+  box-shadow: 1px 0px 5px gray;
+  padding: 5vh;
+}
+.logo {
+  font-weight: 1100;
+  font-size: larger;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.nav .med-nav ul {
+  display: flex;
+  gap: 2vw;
+}
+.nav .med-nav li {
+  list-style-type: none;
+  font-size: larger;
+}
+button {
+  border-color: rgb(24, 95, 69);
+
+  background-color: rgb(136, 230, 166);
+  border-radius: 15%;
+  padding: 0.15rem;
+  padding: 1vh;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+.main {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(68, 70, 70);
+}
+.content {
+  width: 100%;
+  margin-top: 20vh;
+  margin-left: 13vw;
+}
+.content .span1 {
+  color: rgb(45, 42, 42);
+  font-size: 3.5rem;
+}
+.content .span2 {
+  color: rgb(46, 41, 41);
+  font-size: 3rem;
+}
+.world {
+  font-size: 5rem;
+}
+.pc-screen {
+  margin-top: 10%;
+  width: 50%;
+}
+.pc-screen > img {
+  height: 50vh;
+  width: 50vh;
+}
+.scroll { 
+  /* color: transparent; */
+  margin-left: 48%;
+}
+.scroll p {
+  font-weight: bolder;
+}
